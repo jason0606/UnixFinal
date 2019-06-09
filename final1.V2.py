@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 from pretty_print import pretty_print ## 美化輸出
 import urllib.parse ## url 相關應用
 
-index = str("https://www.ptt.cc/bbs/movie/index.html")
+index = str("https://www.ptt.cc/bbs/nba/index.html")
 pages = eval("5")
 
 not_exist = BeautifulSoup('<a>(本文已被刪除)</a>', 'lxml').a ## '本文已被刪除'的結構不同，自行生成<a>
